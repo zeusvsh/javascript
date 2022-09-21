@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <script>
+        const produto = Number(prompt("valor do produto R$: "))
+        const dinheiro = produto * 0.1
+        const cartão = produto * 0.05
+        const total1 = produto - dinheiro
+        const total2 = produto + cartão
+        alert(`O total com pagamento avista é R$: ${total1.toFixed(2)}\n
+        O total em 3x no cartão é: R$: ${total2.toFixed(2)}`)
+    </script>
+</body>
+</html>
